@@ -17,7 +17,7 @@ fun main() {
     println(yurina.firstName)
 
     val toyota = Car("Toyota")
-    var almaz = Car("Almaz", 2019)
+    val almaz = Car("Almaz", 2019)
 
     println(toyota.brand)
     println(toyota.year)
