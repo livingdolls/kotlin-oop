@@ -1,5 +1,6 @@
 package app
 
+import data.Car
 import data.Person
 
 fun main() {
@@ -14,4 +15,12 @@ fun main() {
 
     println(nanang.firstName)
     println(yurina.firstName)
+
+    val toyota = Car("Toyota")
+    var almaz = Car("Almaz", 2019)
+
+    println(toyota.brand)
+    println(toyota.year)
+
+    println(almaz.brand)
 }
