@@ -9,6 +9,8 @@ fun main() {
     b()
 
     println(Application.Ultilities.toUpper("Hirate"))
+
+    println(Application.toUpper("hirate yurina"))
 }
 
 fun a() {

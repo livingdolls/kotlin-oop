@@ -9,4 +9,10 @@ class Application(val name: String) {
             return value.uppercase(getDefault())
         }
     }
+
+    companion object  {
+        fun toUpper(value: String): String {
+            return value.uppercase(getDefault())
+        }
+    }
 }
